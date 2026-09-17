@@ -1,0 +1,5 @@
+timestamp,user,application,result,risk,conditional_access
+2026-08-24T02:14:00Z,alex.p@contoso.example,Microsoft 365,Failure,medium,blocked
+2026-08-24T08:25:00Z,alex.p@contoso.example,Microsoft 365,Success,none,success
+2026-08-24T09:01:00Z,jamie.t@contoso.example,SharePoint Online,Success,none,success
+2026-08-24T09:12:00Z,morgan.r@contoso.example,Microsoft Graph,Success,none,success

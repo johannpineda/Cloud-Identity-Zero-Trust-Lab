@@ -1,0 +1,9 @@
+[2026-08-31 09:00:00Z] Tenant: contoso.example (LAB DEMO)
+[PASS] Identity platform status: Healthy
+[PASS] MFA registration: 98.4%
+[PASS] Conditional Access success: 99.6%
+[PASS] Compliant devices: 95.2%
+[PASS] Permanent Global Administrators: 0
+[PASS] Risky users requiring remediation: 0
+[PASS] Access review completion: 100.0%
+Overall status: HEALTHY

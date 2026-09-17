@@ -1,0 +1,7 @@
+principal,principal_type,role,assignment,maximum_duration,approval_required
+GRP-Identity-Operators,Group,User Administrator,Eligible,4 hours,true
+GRP-Auth-Operators,Group,Authentication Administrator,Eligible,2 hours,true
+GRP-CA-Operators,Group,Conditional Access Administrator,Eligible,2 hours,true
+GRP-Security-Readers,Group,Security Reader,Active,N/A,false
+Emergency-Access-01,User,Global Administrator,Active,N/A,false
+Emergency-Access-02,User,Global Administrator,Active,N/A,false

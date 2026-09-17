@@ -1,0 +1,7 @@
+{
+  "groups": [
+    {"name": "DG-Department-Finance", "type": "DynamicUser", "rule": "(user.department -eq \"Finance\") and (user.accountEnabled -eq true)"},
+    {"name": "DG-Licensed-Workforce", "type": "DynamicUser", "rule": "(user.userType -eq \"Member\") and (user.accountEnabled -eq true)"},
+    {"name": "DG-Compliant-Windows", "type": "DynamicDevice", "rule": "(device.deviceOSType -eq \"Windows\") and (device.isCompliant -eq true)"}
+  ]
+}

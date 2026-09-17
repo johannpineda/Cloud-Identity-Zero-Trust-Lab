@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-31T09:00:00Z",
+  "tenant": "contoso.example (LAB DEMO)",
+  "status": "healthy",
+  "metrics": {
+    "identitySecureScorePercent": 82.0,
+    "mfaRegistrationPercent": 98.4,
+    "compliantDevicesPercent": 95.2,
+    "conditionalAccessSuccessPercent": 99.6,
+    "permanentGlobalAdministrators": 0,
+    "eligiblePrivilegedRoles": 8,
+    "riskyUsers": 0,
+    "accessReviewCompletionPercent": 100.0
+  },
+  "controls": [
+    {"name": "Administrative MFA", "status": "passed"},
+    {"name": "Workforce MFA", "status": "passed"},
+    {"name": "Legacy authentication blocked", "status": "passed"},
+    {"name": "Quarterly access reviews", "status": "passed"}
+  ]
+}

@@ -1,0 +1,4 @@
+UserPrincipalName,DisplayName,Action,Department,Group
+jamie.t@contoso.example,Jamie Taylor,Joiner,Finance,DG-Department-Finance
+alex.p@contoso.example,Alex Parker,Mover,Security,GRP-Security-Readers
+morgan.r@contoso.example,Morgan Rivera,Leaver,Operations,All-Workforce-Users

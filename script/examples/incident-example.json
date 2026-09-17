@@ -1,0 +1,10 @@
+{
+  "incident_id": "INC-2026-011",
+  "title": "Risky Sign-In Investigation",
+  "severity": "Medium",
+  "status": "Closed",
+  "identity": "alex.p@contoso.example",
+  "detection": "An unfamiliar sign-in was assigned medium risk and failed the required MFA challenge.",
+  "response": "Sessions were revoked, credentials reset, authentication methods reviewed, and related audit activity analyzed.",
+  "outcome": "Access was denied by policy and no evidence of account compromise was identified."
+}

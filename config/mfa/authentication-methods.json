@@ -1,0 +1,8 @@
+{
+  "preferredMethods": ["fido2", "microsoftAuthenticator"],
+  "onboardingMethod": "temporaryAccessPass",
+  "transitionalMethods": ["sms", "voice"],
+  "administratorRequirement": "phishing-resistant MFA where supported",
+  "selfServicePasswordResetMethodsRequired": 2,
+  "registrationCoveragePercent": 98.4
+}

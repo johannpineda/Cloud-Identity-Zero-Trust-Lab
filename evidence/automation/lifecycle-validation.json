@@ -1,0 +1,11 @@
+{
+  "runId": "JML-2026-0831-001",
+  "mode": "validation",
+  "records": 3,
+  "results": [
+    {"userPrincipalName": "jamie.t@contoso.example", "action": "joiner", "result": "validated"},
+    {"userPrincipalName": "alex.p@contoso.example", "action": "mover", "result": "validated"},
+    {"userPrincipalName": "morgan.r@contoso.example", "action": "leaver", "result": "validated"}
+  ],
+  "errors": 0
+}

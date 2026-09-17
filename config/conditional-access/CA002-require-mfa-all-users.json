@@ -1,0 +1,11 @@
+{
+  "id": "CA002",
+  "displayName": "Require MFA for workforce users",
+  "state": "enabled",
+  "includeGroups": ["All-Workforce-Users"],
+  "excludeGroups": ["Emergency-Access-Accounts", "Workload-Identities"],
+  "cloudApps": ["All"],
+  "clientAppTypes": ["browser", "mobileAppsAndDesktopClients"],
+  "grantControls": {"operator": "OR", "builtInControls": ["mfa"]},
+  "deploymentEvidence": "policy-tests/CA002-validation.md"
+}

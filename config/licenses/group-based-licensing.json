@@ -1,0 +1,8 @@
+{
+  "assignments": [
+    {"group": "LIC-M365-E3", "sku": "Microsoft 365 E3", "members": 42, "errors": 0},
+    {"group": "LIC-Entra-P2-Admins", "sku": "Microsoft Entra ID P2", "members": 8, "errors": 0}
+  ],
+  "directAssignmentsAllowed": false,
+  "lastReconciled": "2026-08-31T09:00:00Z"
+}

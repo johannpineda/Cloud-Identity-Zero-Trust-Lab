@@ -1,0 +1,11 @@
+{
+  "id": "CA001",
+  "displayName": "Require MFA for administrative roles",
+  "state": "enabled",
+  "includeRoles": ["Global Administrator", "Conditional Access Administrator", "User Administrator"],
+  "excludeGroups": ["Emergency-Access-Accounts"],
+  "cloudApps": ["All"],
+  "clientAppTypes": ["browser", "mobileAppsAndDesktopClients"],
+  "grantControls": {"operator": "OR", "builtInControls": ["mfa"]},
+  "sessionControls": {"signInFrequencyHours": 8}
+}
