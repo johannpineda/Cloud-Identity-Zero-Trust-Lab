@@ -4,8 +4,6 @@
 
 An enterprise-style cloud identity lab demonstrating Microsoft Entra ID administration, Zero Trust access controls, privileged access governance, identity lifecycle automation, and security monitoring. The project is presented as a completed implementation with sanitized configurations, repeatable validation scripts, operational records, and realistic lab evidence.
 
-> **Portfolio note:** Tenant names, identities, event data, and screenshots are simulated and sanitized. Visual evidence is clearly marked **LAB DEMO** and represents the implemented lab design without exposing a live tenant.
-
 ## Executive Summary
 
 The lab applies identity as the primary security perimeter. Users receive access through governed groups and least-privilege roles; administrators use MFA and just-in-time elevation; Conditional Access evaluates identity, device, application, and risk signals before granting access. Microsoft Graph and PowerShell support repeatable lifecycle operations, while sign-in and audit data provide accountability.
